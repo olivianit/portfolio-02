@@ -37,12 +37,15 @@ h2 {
     color:antiquewhite
 }
 
-}
+
 img {
     margin-left: auto;
+    border: 10px solid;
+    color: antiquewhite;
+    align-items: center;
 }
 body {
-    background-color:#445739
+    background-color:#445739;
 }
 nav {
     margin-left: 10%;
