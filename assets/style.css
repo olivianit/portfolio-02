@@ -1,14 +1,13 @@
 body {
     text-align: center; 
 }
-ul {
+#nav {
     list-style-type: none;
     margin: -50px;
     margin-bottom: 90px;
     padding: 0;
     font-size: 25px;
-    display: flex;
-    justify-content: space-evenly;
+
 }
 
 a {
@@ -75,20 +74,38 @@ body {
 
 @media screen and (max-width: 980px){
     img {
-        width: 200px;
+        width: 200px;}
+
+    #info {
+            border: #fff;
+            border-style: solid;
+            padding: 25px;
+            margin: 0px; 
+            font-size: 20px;}
+        
+    #nav {
+        margin-bottom: 0px;
+        padding: 30px;
+    }
+    
+    h2 {
+        padding: 0px;
+    }
+
+    }
 }
 
     section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
 
     ul {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
 }
 }
