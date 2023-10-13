@@ -1,109 +1,109 @@
 body {
-    text-align: center; 
+  text-align: center;
 }
 #nav {
-    list-style-type: none;
-    margin: -50px;
-    margin-bottom: 90px;
-    padding: 0;
-    font-size: 25px;
-
+  list-style-type: none;
+  margin: -50px;
+  margin-bottom: 90px;
+  padding: 0;
+  font-size: 25px;
 }
 
 a {
-    color: rgba(236, 235, 220, 0.973);
+  color: rgba(236, 235, 220, 0.973);
 }
 
 li {
-    display: inline;
-    color: #fff;
+  display: inline;
+  color: #fff;
 }
 
 header,
 footer {
-    width: 100%;
-    height: 150px;
-    background-color: rgb(174, 202, 147);
-    color: antiquewhite;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(174, 202, 147);
+  color: antiquewhite;
 }
 
-h1 { border-bottom: solid;
-    border-width: 2px;
-    padding-top: .6%;
-    border-color: rgb(59, 75, 51, 0.863);
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    color: rgba(59, 75, 51, 0.863);
-    letter-spacing: 12px;
-    font-size: 50px;
-    
+h1 {
+  border-bottom: solid;
+  border-width: 2px;
+  padding-top: 0.6%;
+  border-color: rgb(59, 75, 51, 0.863);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  color: rgba(59, 75, 51, 0.863);
+  letter-spacing: 12px;
+  font-size: 50px;
 }
 
 h2 {
-    color:antiquewhite
+  color: antiquewhite;
 }
 
-p { color: #fff;
-    font-size: 20px;
+p {
+  color: #fff;
+  font-size: 20px;
 }
 
-#about, #contact, #works {
-    font-size: 40px;
+#about,
+#contact,
+#works {
+  font-size: 40px;
 }
 
 img {
-    
-    border: 10px solid;
-    color: antiquewhite;
-    margin: 0px 10px 30px 20px;
-    
+  border: 10px solid;
+  color: antiquewhite;
+  margin: 0px 10px 30px 20px;
 }
 
 body {
-    background-color:#445739;
+  background-color: #445739;
 }
 
 #info {
+  border: #fff;
+  border-style: solid;
+  padding: 20px;
+  margin: 80px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 980px) {
+  img {
+    width: 200px;
+  }
+
+  #info {
     border: #fff;
     border-style: solid;
-    padding: 20px;
-    margin: 80px; 
+    padding: 25px;
+    margin: 0px;
     font-size: 20px;
+  }
+
+  #nav {
+    margin-bottom: 0px;
+    padding: 30px;
+  }
+
+  h2 {
+    padding: 0px;
+  }
 }
 
-
-@media screen and (max-width: 980px){
-    img {
-        width: 200px;}
-
-    #info {
-            border: #fff;
-            border-style: solid;
-            padding: 25px;
-            margin: 0px; 
-            font-size: 20px;}
-        
-    #nav {
-        margin-bottom: 0px;
-        padding: 30px;
-    }
-    
-    h2 {
-        padding: 0px;
-    }
-
-    }
-
-    section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 
-    ul {
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
